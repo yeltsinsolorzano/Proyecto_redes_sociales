@@ -1,0 +1,12 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Aqui hay un detalle, para que la imagen se vea bien en la pantalla dentro de iframe, debemos aplicarle background-size:cover*/
+body {
+    width: 100vw;
+    height: 100vh;
+    background: black url(../imagens/tela-twitter.jpg) no-repeat top center;
+    background-size: cover;
+}
